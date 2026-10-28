@@ -1,0 +1,21 @@
+# Czas antylogoutu w sekundach (liczony od ostatniego uderzenia)
+czas-sekundy: 30
+
+# Dozwolone komendy podczas antylogoutu (bez "/")
+dozwolone-komendy:
+  - msg
+  - r
+  - tell
+  - w
+  - whisper
+  - m
+  - t
+  - reply
+
+wiadomosci:
+  start: "&cWszedles w walke! Antylogout &e{czas}s&c. Nie wychodz z serwera!"
+  koniec: "&aAntylogout zakonczony. Mozesz bezpiecznie wyjsc."
+  actionbar: "&cAntylogout: &e{sekundy}s"
+  komenda-zablokowana: "&cPodczas walki mozesz uzywac tylko /msg i /r!"
+  wyjscie: "&e{gracz} &cwyszedl z serwera podczas walki i zginal!"
+  reload: "&aKonfiguracja przeladowana."
