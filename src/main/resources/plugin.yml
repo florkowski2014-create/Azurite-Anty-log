@@ -1,0 +1,16 @@
+name: AzuriteAntyLogout
+version: '${version}'
+main: pl.azurite.antylogout.AntyLogoutPlugin
+api-version: '1.21'
+description: Antylogout - podczas walki tylko /msg i /r, wyjscie z serwera = smierc
+commands:
+  antylogout:
+    description: Przeladowanie konfiguracji
+    usage: /antylogout reload
+    permission: azurite.antylogout.admin
+permissions:
+  azurite.antylogout.admin:
+    default: op
+  azurite.antylogout.bypass:
+    description: Gracz nie dostaje antylogoutu
+    default: false
